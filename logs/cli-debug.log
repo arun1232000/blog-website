@@ -1,0 +1,100 @@
+2023-10-30 10:32:55 notice: Deprecated (16384): Option `httpOnly` is deprecated. Use lowercased `httponly` instead.
+C:\wamp64\www\cakephp4\config\routes.php, line: 51
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in [C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Core\functions.php, line 300]
+Trace:
+Cake\Error\BaseErrorHandler->handleError() - [internal], line ??
+C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Core\functions.php - CORE\src\Core\functions.php, line 300
+C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 114
+Cake\Http\Middleware\CsrfProtectionMiddleware->__construct() - ROOT\config\routes.php, line 51
+Cake\Http\BaseApplication->{closure}() - CORE\src\Routing\RouteBuilder.php, line 947
+Cake\Routing\RouteBuilder->scope() - ROOT\config\routes.php, line 86
+C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Http\BaseApplication.php - CORE\src\Http\BaseApplication.php, line 199
+Cake\Http\BaseApplication->routes() - CORE\src\Console\CommandRunner.php, line 397
+Cake\Console\CommandRunner->loadRoutes() - CORE\src\Console\CommandRunner.php, line 147
+Cake\Console\CommandRunner->run() - ROOT\bin\cake.php, line 12
+[main]
+
+2023-10-30 10:50:20 notice: Deprecated (16384): Option `httpOnly` is deprecated. Use lowercased `httponly` instead.
+C:\wamp64\www\cakephp4\config\routes.php, line: 51
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in [C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Core\functions.php, line 300]
+Trace:
+Cake\Error\BaseErrorHandler->handleError() - [internal], line ??
+C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Core\functions.php - CORE\src\Core\functions.php, line 300
+C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 114
+Cake\Http\Middleware\CsrfProtectionMiddleware->__construct() - ROOT\config\routes.php, line 51
+Cake\Http\BaseApplication->{closure}() - CORE\src\Routing\RouteBuilder.php, line 947
+Cake\Routing\RouteBuilder->scope() - ROOT\config\routes.php, line 86
+C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Http\BaseApplication.php - CORE\src\Http\BaseApplication.php, line 199
+Cake\Http\BaseApplication->routes() - CORE\src\Console\CommandRunner.php, line 397
+Cake\Console\CommandRunner->loadRoutes() - CORE\src\Console\CommandRunner.php, line 147
+Cake\Console\CommandRunner->run() - ROOT\bin\cake.php, line 12
+[main]
+
+2023-10-30 10:50:27 notice: Deprecated (16384): 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Students = null;` to your class definition.
+C:\wamp64\www\cakephp4\vendor\cakephp\bake\src\Command\TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in [C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Core\functions.php, line 300]
+Trace:
+Cake\Error\BaseErrorHandler->handleError() - [internal], line ??
+C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Core\functions.php - CORE\src\Core\functions.php, line 300
+C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php - CORE\src\Datasource\ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() - ROOT\vendor\cakephp\bake\src\Command\TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() - ROOT\vendor\cakephp\bake\src\Command\TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() - ROOT\vendor\cakephp\bake\src\Command\TestCommand.php, line 258
+Bake\Command\TestCommand->bake() - ROOT\vendor\cakephp\bake\src\Command\TestCommand.php, line 132
+Bake\Command\TestCommand->execute() - ROOT\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() - ROOT\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() - ROOT\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() - CORE\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() - CORE\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() - CORE\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() - ROOT\bin\cake.php, line 12
+[main]
+
+2023-10-30 11:13:40 notice: Deprecated (16384): Option `httpOnly` is deprecated. Use lowercased `httponly` instead.
+C:\wamp64\www\cakephp4\config\routes.php, line: 51
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in [C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Core\functions.php, line 300]
+Trace:
+Cake\Error\BaseErrorHandler->handleError() - [internal], line ??
+C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Core\functions.php - CORE\src\Core\functions.php, line 300
+C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 114
+Cake\Http\Middleware\CsrfProtectionMiddleware->__construct() - ROOT\config\routes.php, line 51
+Cake\Http\BaseApplication->{closure}() - CORE\src\Routing\RouteBuilder.php, line 947
+Cake\Routing\RouteBuilder->scope() - ROOT\config\routes.php, line 86
+C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Http\BaseApplication.php - CORE\src\Http\BaseApplication.php, line 199
+Cake\Http\BaseApplication->routes() - CORE\src\Console\CommandRunner.php, line 397
+Cake\Console\CommandRunner->loadRoutes() - CORE\src\Console\CommandRunner.php, line 147
+Cake\Console\CommandRunner->run() - ROOT\bin\cake.php, line 12
+[main]
+
+2023-10-30 12:47:17 notice: Deprecated (16384): Option `httpOnly` is deprecated. Use lowercased `httponly` instead.
+C:\wamp64\www\cakephp4\config\routes.php, line: 51
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in [C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Core\functions.php, line 300]
+Trace:
+Cake\Error\BaseErrorHandler->handleError() - [internal], line ??
+C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Core\functions.php - CORE\src\Core\functions.php, line 300
+C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 114
+Cake\Http\Middleware\CsrfProtectionMiddleware->__construct() - ROOT\config\routes.php, line 51
+Cake\Http\BaseApplication->{closure}() - CORE\src\Routing\RouteBuilder.php, line 947
+Cake\Routing\RouteBuilder->scope() - ROOT\config\routes.php, line 86
+C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Http\BaseApplication.php - CORE\src\Http\BaseApplication.php, line 199
+Cake\Http\BaseApplication->routes() - CORE\src\Console\CommandRunner.php, line 397
+Cake\Console\CommandRunner->loadRoutes() - CORE\src\Console\CommandRunner.php, line 147
+Cake\Console\CommandRunner->run() - ROOT\bin\cake.php, line 12
+[main]
+
+2023-10-30 13:28:23 notice: Deprecated (16384): Option `httpOnly` is deprecated. Use lowercased `httponly` instead.
+C:\wamp64\www\cakephp4\config\routes.php, line: 51
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only. in [C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Core\functions.php, line 300]
+Trace:
+Cake\Error\BaseErrorHandler->handleError() - [internal], line ??
+C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Core\functions.php - CORE\src\Core\functions.php, line 300
+C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 114
+Cake\Http\Middleware\CsrfProtectionMiddleware->__construct() - ROOT\config\routes.php, line 51
+Cake\Http\BaseApplication->{closure}() - CORE\src\Routing\RouteBuilder.php, line 947
+Cake\Routing\RouteBuilder->scope() - ROOT\config\routes.php, line 86
+C:\wamp64\www\cakephp4\vendor\cakephp\cakephp\src\Http\BaseApplication.php - CORE\src\Http\BaseApplication.php, line 199
+Cake\Http\BaseApplication->routes() - CORE\src\Console\CommandRunner.php, line 397
+Cake\Console\CommandRunner->loadRoutes() - CORE\src\Console\CommandRunner.php, line 147
+Cake\Console\CommandRunner->run() - ROOT\bin\cake.php, line 12
+[main]
+
